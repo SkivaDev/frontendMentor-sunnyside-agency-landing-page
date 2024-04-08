@@ -12,7 +12,7 @@ body {
   background-color: aqua;
 }
 
-.menu-section.shown::after {
+/* .menu-section.shown::after {
   content: "";
   position: absolute;
   margin-top: -25%;
@@ -25,4 +25,4 @@ body {
   border-bottom: 40px solid transparent;
   border-top: 40px solid transparent;
   border-right: 40px solid var(--white);
-}
+} */
