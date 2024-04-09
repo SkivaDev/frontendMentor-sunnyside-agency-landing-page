@@ -13,6 +13,7 @@ export default {
 				'very-dark-grayish-blue': 'hsl(213, 9%, 39%)',
 				'dark-grayish-blue': 'hsl(232, 10%, 55%)',
 				'grayish-blue': 'hsl(210, 4%, 67%)',
+				'blue': 'hsl(200, 100, 62%)',
 			},
 			backgroundColor: {
 				'soft-red': 'hsl(7, 99%, 70%)',
@@ -24,6 +25,7 @@ export default {
 				'very-dark-grayish-blue': 'hsl(213, 9%, 39%)',
 				'dark-grayish-blue': 'hsl(232, 10%, 55%)',
 				'grayish-blue': 'hsl(210, 4%, 67%)',
+				'blue': 'hsl(200, 100, 62%)',
 			},
 			fontFamily: {
 				'fraunces': ['Fraunces', 'serif'],
