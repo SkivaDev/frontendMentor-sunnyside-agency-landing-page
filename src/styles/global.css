@@ -33,3 +33,15 @@ body {
   background-position: center;
   /* height: 100vh; */
 }
+
+.transform a:after, .standout a:after {
+  content: "";
+  position: absolute;
+  opacity: 0.5;
+  height: 8px;
+  left: -7px;
+  right: 0;
+  top: 85%;
+  transition: all ease-in-out 0.3s;
+  @apply bg-yellow w-[31%];
+}
