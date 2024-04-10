@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialComponent = () => {
   return (
     <section>
-      <div className="bg-red-700 pt-[158px] px-[160.2px] pb-[160px]">
+      <div className="pt-[158px] px-[160.2px] pb-[161px]">
         <h1 className="text-[21px] font-fraunces font-black uppercase text-center tracking-[4.45px]">
           Client Testimonials
         </h1>
@@ -19,7 +19,7 @@ const TestimonialComponent = () => {
           <TestimonialCard
             name={"Thomas S."}
             position={"Chief Operating Officer"}
-            image={"./images/image-emily.jpg"}
+            image={"./images/image-thomas.jpg"}
             testimonial={
               "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience."
             }
@@ -27,7 +27,7 @@ const TestimonialComponent = () => {
           <TestimonialCard
             name={"Jennie F."}
             position={"Business Owner"}
-            image={"./images/image-emily.jpg"}
+            image={"./images/image-jennie.jpg"}
             testimonial={
               "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
             }
