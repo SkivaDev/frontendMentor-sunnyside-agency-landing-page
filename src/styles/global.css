@@ -45,3 +45,15 @@ body {
   transition: all ease-in-out 0.3s;
   @apply bg-yellow w-[31%];
 }
+
+.bg-graphic {
+  background-image: url('./images/desktop/image-graphic-design.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-photography {
+  background-image: url('./images/desktop/image-photography.jpg');
+  background-size: cover;
+  background-position: center;
+}
