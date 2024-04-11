@@ -9,7 +9,7 @@ const Navigation = () => {
         <img class="w-[171px]" src="./images/logo.svg" alt="sunnyside logo" />
       </a>
       <div className={`${isOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row justify-between items-center absolute md:relative gap-8 md:gap-0 p-8 md:p-0 top-1/2 md:top-0 left-1/2 md:left-0 translate-x-[-50%] translate-y-[20%] md:transform-none bg-white md:bg-transparent max-w-[278px] md:max-w-none w-full md:w-auto`}>
-        <ul class="flex flex-col md:flex-row gap-[46.8px] md:mr-[50.4px] text-lg">
+        <ul class="flex flex-col md:flex-row gap-[47.8px] md:mr-[48.4px] text-lg">
           <li>
             <a href="/">About</a>
           </li>
