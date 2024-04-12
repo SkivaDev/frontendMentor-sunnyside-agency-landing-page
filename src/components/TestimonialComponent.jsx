@@ -3,11 +3,11 @@ import React from "react";
 const TestimonialComponent = () => {
   return (
     <section>
-      <div className="pt-[62px] md:pt-[158px] px-[25px] md:px-[160.2px] pb-[89px] md:pb-[161px]">
-        <h1 className="text-[16px] md:text-[21px] font-fraunces font-black uppercase text-center tracking-[4px] md:tracking-[4.45px] text-grayish-blue">
+      <div className="pt-[3.875rem] md:pt-[9.875rem] px-[1.5625rem] md:px-[10.0125rem] pb-[5.5625rem] md:pb-[10.0625rem]">
+        <h1 className="text-[1rem] md:text-[1.3125rem] font-fraunces font-black uppercase text-center tracking-[.25rem] md:tracking-[.2781rem] text-grayish-blue">
           Client Testimonials
         </h1>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-[62px] md:mt-[75px] mx-auto gap-[64px] md:gap-[21px]">
+        <div className="flex flex-col md:flex-row justify-center items-center mt-[3.875rem] md:mt-[4.6875rem] mx-auto gap-[4rem] md:gap-[1.3125rem]">
           <TestimonialCard
             name={"Emily R."}
             position={"Marketing Director"}
@@ -41,15 +41,15 @@ const TestimonialComponent = () => {
 const TestimonialCard = ({ name, position, image, testimonial }) => {
   return (
     <div className="flex flex-col items-center flex-1">
-      <img src={image} alt={name} className="w-[73px] rounded-full" />
-      <p className="text-center text-[17px] mt-[30px] md:mt-[58px] tracking-[0.4px] md:tracking-[0.5px] leading-[32px] text-dark-grayish-blue">
+      <img src={image} alt={name} className="w-[4.5625rem] rounded-full" />
+      <p className="text-center text-[1.0625rem] mt-[1.875rem] md:mt-[3.625rem] tracking-[.025rem] md:tracking-[.0313rem] leading-[2rem] text-dark-grayish-blue">
         {testimonial}
       </p>
-      <div className="mt-[30px] md:mt-[66px] md:mr-[14px] text-center">
-        <h2 className="text-[20px] font-fraunces font-black tracking-[-1px]">
+      <div className="mt-[1.875rem] md:mt-[4.125rem] md:mr-[.875rem] text-center">
+        <h2 className="text-[1.25rem] font-fraunces font-black tracking-[-0.0625rem]">
           {name}
         </h2>
-        <h3 className="mt-[4px] tracking-[-1px] text-grayish-blue">{position}</h3>
+        <h3 className="mt-[.25rem] tracking-[-0.0625rem] text-grayish-blue">{position}</h3>
       </div>
     </div>
   );
