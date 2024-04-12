@@ -12,20 +12,20 @@ body {
 }
 
 .bg-hero {
-  background-image: url('images/mobile/image-header.jpg');
+  background-image: url('/images/mobile/image-header.jpg');
   background-size: cover;
   background-position: center;
 
 }
 
 .bg-graphic {
-  background-image: url('images/mobile/image-graphic-design.jpg');
+  background-image: url('/images/mobile/image-graphic-design.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .bg-photography {
-  background-image: url('images/mobile/image-photography.jpg');
+  background-image: url('/images/mobile/image-photography.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -33,13 +33,13 @@ body {
 
 @media (min-width: 768px) {
   .bg-hero {
-    background-image: url('images/desktop/image-header.jpg');
+    background-image: url('/images/desktop/image-header.jpg');
   }
   .bg-graphic {
-    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-image: url('/images/desktop/image-graphic-design.jpg');
   }
   .bg-photography {
-    background-image: url('images/desktop/image-photography.jpg');
+    background-image: url('/images/desktop/image-photography.jpg');
   }
 }
 

@@ -4,12 +4,12 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav class="relative flex justify-between items-center">
+    <nav className="relative flex justify-between items-center">
       <a href="/">
-        <img class="w-[7.8125rem] md:w-[10.6875rem]" src="./images/logo.svg" alt="sunnyside logo" />
+        <img className="w-[7.8125rem] md:w-[10.6875rem]" src="./images/logo.svg" alt="sunnyside logo" />
       </a>
       <div className={`${isOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row justify-between items-center absolute md:relative gap-8 md:gap-0 p-8 md:p-0 top-1/2 md:top-0 left-1/2 md:left-0 translate-x-[-50%] translate-y-[20%] md:transform-none bg-white md:bg-transparent max-w-[17.375rem] md:max-w-none w-full md:w-auto`}>
-        <ul class="flex flex-col md:flex-row gap-[2.9875rem] md:mr-[2.9rem] text-lg">
+        <ul className="flex flex-col md:flex-row gap-[2.9875rem] md:mr-[2.9rem] text-lg">
           <li>
             <a href="/" className="hover:text-white transition-all">About</a>
           </li>
@@ -22,13 +22,13 @@ const Navigation = () => {
         </ul>
         <a
           href="/"
-          class="py-[1.0125rem] px-[1.875rem] md:mr-[.45rem] hover:bg-amber-600 md:hover:bg-yellow bg-yellow md:bg-white border rounded-full text-[1.0125rem]  font-fraunces font-bold uppercase tracking-[-0.0437rem] transition-all"
+          className="py-[1.0125rem] px-[1.875rem] md:mr-[.45rem] hover:bg-amber-600 md:hover:bg-yellow bg-yellow md:bg-white border rounded-full text-[1.0125rem]  font-fraunces font-bold uppercase tracking-[-0.0437rem] transition-all"
         >
           Contact
         </a>
       </div>
       <button
-        class="block md:hidden"
+        className="block md:hidden"
         onClick={() => {
           setIsOpen(!isOpen);
         }}
