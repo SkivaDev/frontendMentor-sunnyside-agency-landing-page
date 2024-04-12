@@ -3,7 +3,7 @@ import React from "react";
 const TestimonialComponent = () => {
   return (
     <section>
-      <div className="pt-[3.875rem] md:pt-[9.875rem] px-[1.5625rem] md:px-[10.0125rem] pb-[5.5625rem] md:pb-[10.0625rem]">
+      <div className="pt-[3.875rem] md:pt-[9.875rem] px-[1.5625rem] md:px-[10.0125rem] pb-[5.5625rem] md:pb-[10.0625rem] bg-container-color">
         <h1 className="text-[1rem] md:text-[1.3125rem] font-fraunces font-black uppercase text-center tracking-[.25rem] md:tracking-[.2781rem] text-grayish-blue">
           Client Testimonials
         </h1>

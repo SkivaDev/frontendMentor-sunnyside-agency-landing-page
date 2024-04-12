@@ -9,15 +9,15 @@ const Navigation = () => {
         <img className="w-[7.8125rem] md:w-[10.6875rem]" src="./images/logo.svg" alt="sunnyside logo" />
       </a>
       <div className={`${isOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row justify-between items-center absolute md:relative gap-8 md:gap-0 p-8 md:p-0 top-1/2 md:top-0 left-1/2 md:left-0 translate-x-[-50%] translate-y-[20%] md:transform-none bg-white md:bg-transparent max-w-[17.375rem] md:max-w-none w-full md:w-auto`}>
-        <ul className="flex flex-col md:flex-row gap-[2.9875rem] md:mr-[2.9rem] text-lg">
+        <ul className="flex flex-col md:flex-row gap-[2.9875rem] md:mr-[2.9rem] text-lg text-white">
           <li>
-            <a href="/" className="hover:text-white transition-all">About</a>
+            <a href="/" className="hover:text-dark-grayish-blue transition-all">About</a>
           </li>
           <li>
-            <a href="/" className="hover:text-white transition-all">Services</a>
+            <a href="/" className="hover:text-dark-grayish-blue transition-all">Services</a>
           </li>
           <li>
-            <a href="/" className="hover:text-white transition-all">Projects</a>
+            <a href="/" className="hover:text-dark-grayish-blue transition-all">Projects</a>
           </li>
         </ul>
         <a

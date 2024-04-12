@@ -4,7 +4,7 @@ const ServicesSection = () => {
   return (
     <section>
       <div className="transform w-full flex flex-col-reverse md:flex-row">
-        <div className="md:w-1/2 lg:pl-[10.25rem] pt-[3.875rem] md:pt-0 lg:pt-[10rem] lg:pr-[6.25rem] text-center md:text-left">
+        <div className="md:w-1/2 lg:pl-[10.25rem] pt-[3.875rem] md:pt-0 lg:pt-[10rem] lg:pr-[6.25rem] text-center md:text-left bg-container-color">
           <h2 className="text-[2.0625rem] md:text-[2.5625rem] font-fraunces font-black leading-[2.5rem] md:leading-[2.9375rem]">
             Transform your brand
           </h2>
@@ -31,7 +31,7 @@ const ServicesSection = () => {
       </div>
 
       <div className="standout w-full flex flex-col-reverse md:flex-row-reverse">
-        <div className="md:w-1/2 px-[1.875rem] lg:pl-[6.875rem] lg:pr-[10rem] pt-[4rem] md:pt-0 lg:pt-[9.875rem] text-center md:text-left">
+        <div className="md:w-1/2 px-[1.875rem] lg:pl-[6.875rem] lg:pr-[10rem] pt-[4rem] md:pt-0 lg:pt-[9.875rem] text-center md:text-left bg-container-color">
           <h2 className="text-[2.0625rem] md:text-[2.5438rem] font-fraunces font-black leading-[2.4375rem] md:leading-[3rem]">
             Stand out to the right audience
           </h2>

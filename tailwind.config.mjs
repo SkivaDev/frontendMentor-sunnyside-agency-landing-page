@@ -27,6 +27,7 @@ export default {
 				'grayish-blue': 'hsl(210, 4%, 67%)',
 				'blue': 'hsl(200, 100, 62%)',
 				'light-cyan': 'hsl(169.09deg 41.25% 68.63%)',
+				'container-color': 'hsl(25.71deg 100% 98.63%)'
 			},
 			fontFamily: {
 				'fraunces': ['Fraunces', 'serif'],
