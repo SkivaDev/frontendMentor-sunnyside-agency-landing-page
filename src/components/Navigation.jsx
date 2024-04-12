@@ -6,10 +6,10 @@ const Navigation = () => {
   return (
     <nav class="relative flex justify-between items-center border">
       <a href="/">
-        <img class="w-[171px]" src="./images/logo.svg" alt="sunnyside logo" />
+        <img class="w-[125px] md:w-[171px]" src="./images/logo.svg" alt="sunnyside logo" />
       </a>
       <div className={`${isOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row justify-between items-center absolute md:relative gap-8 md:gap-0 p-8 md:p-0 top-1/2 md:top-0 left-1/2 md:left-0 translate-x-[-50%] translate-y-[20%] md:transform-none bg-white md:bg-transparent max-w-[278px] md:max-w-none w-full md:w-auto`}>
-        <ul class="flex flex-col md:flex-row gap-[47.8px] md:mr-[48.4px] text-lg">
+        <ul class="flex flex-col md:flex-row gap-[47.8px] md:mr-[46.4px] text-lg">
           <li>
             <a href="/">About</a>
           </li>
@@ -22,7 +22,7 @@ const Navigation = () => {
         </ul>
         <a
           href="/"
-          class="py-[16.2px] px-[27px] md:mr-[7.2px] bg-yellow md:bg-white border rounded-full text-[16.2px]  font-fraunces font-bold uppercase"
+          class="py-[16.2px] px-[30px] md:mr-[7.2px] bg-yellow md:bg-white border rounded-full text-[16.2px]  font-fraunces font-bold uppercase tracking-[-0.7px]"
         >
           Contact
         </a>

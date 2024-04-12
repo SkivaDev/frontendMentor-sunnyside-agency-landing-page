@@ -12,27 +12,38 @@ body {
   background-color: aqua;
 }
 
-/* .menu-section.shown::after {
-  content: "";
-  position: absolute;
-  margin-top: -25%;
-  right: 0;
-  width: 0;
-  height: 0;
-  transform: translate(0, 10%);
-  background-color: transparent;
-  border-left: 40px solid transparent;
-  border-bottom: 40px solid transparent;
-  border-top: 40px solid transparent;
-  border-right: 40px solid var(--white);
-} */
-
 .bg-hero {
-  background-image: url('./images/desktop/image-header.jpg');
+  background-image: url('./images/mobile/image-header.jpg');
   background-size: cover;
   background-position: center;
-  /* height: 100vh; */
+
 }
+
+.bg-graphic {
+  background-image: url('./images/mobile/image-graphic-design.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-photography {
+  background-image: url('./images/mobile/image-photography.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media (min-width: 768px) {
+  .bg-hero {
+    background-image: url('./images/desktop/image-header.jpg');
+  }
+  .bg-graphic {
+    background-image: url('./images/desktop/image-graphic-design.jpg');
+  }
+  .bg-photography {
+    background-image: url('./images/desktop/image-photography.jpg');
+  }
+}
+
 
 .transform a:after, .standout a:after {
   content: "";
@@ -46,14 +57,3 @@ body {
   @apply bg-yellow w-[31%];
 }
 
-.bg-graphic {
-  background-image: url('./images/desktop/image-graphic-design.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.bg-photography {
-  background-image: url('./images/desktop/image-photography.jpg');
-  background-size: cover;
-  background-position: center;
-}
