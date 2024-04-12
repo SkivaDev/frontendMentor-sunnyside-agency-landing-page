@@ -2,23 +2,23 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-center items-center pt-[65px] md:pt-[73px] pb-[80px] md:pb-[72px] bg-red-500">
+    <footer className="flex flex-col justify-center items-center pt-[65px] md:pt-[73px] pb-[80px] md:pb-[72px] bg-light-cyan">
       <div className="mr-3">
-        <img src="./images/logo.svg" alt="sunnyside logo" className="w-[171px]"/>
+        <img src="./images/logo.svg" alt="sunnyside logo" className="footer-logo w-[171px]"/>
       </div>
-      <ul className="flex justify-center items-center gap-[57px] mt-[39px] text-[18px]">
+      <ul className="flex justify-center items-center gap-[57px] mt-[39px] text-[18px] text-dark-moderate-cyan">
         <li>
-          <a href="">About</a>
+          <a href="" className="hover:text-white transition-all">About</a>
         </li>
         <li>
-          <a href="">Services</a>
+          <a href=""className="hover:text-white transition-all">Services</a>
         </li>
         <li>
-          <a href="">Projects</a>
+          <a href="" className="hover:text-white transition-all">Projects</a>
         </li>
       </ul>
 
-      <ul className="flex justify-center items-center gap-[28px] mt-[86px]">
+      <ul className="socials flex justify-center items-center gap-[28px] mt-[86px] text-white">
         <li>
           <a href="">
             <img src="./images/icon-facebook.svg" alt="" className="w-[20px]"/>

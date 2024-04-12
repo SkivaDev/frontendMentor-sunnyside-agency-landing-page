@@ -3,7 +3,7 @@ import React from 'react'
 const GalleryImagesSection = () => {
   return (
     <section>
-        <div className='grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 h-[375px] md:h-auto'>
+        <div className='grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1'>
           <picture>
             <source media="(min-width:650px)" srcset="./images/desktop/image-gallery-milkbottles.jpg"/>
             <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="milkbottles image"  />
