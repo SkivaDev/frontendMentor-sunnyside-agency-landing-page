@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col justify-center items-center pt-[73px] pb-[72px] bg-red-500">
+    <footer className="flex flex-col justify-center items-center pt-[65px] md:pt-[73px] pb-[80px] md:pb-[72px] bg-red-500">
       <div className="mr-3">
         <img src="./images/logo.svg" alt="sunnyside logo" className="w-[171px]"/>
       </div>
